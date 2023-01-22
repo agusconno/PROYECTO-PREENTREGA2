@@ -27,7 +27,8 @@ body{
     background-color: #F5EFE6;
     display: flex;
     flex-direction: column;
-    min-height: 100%;
+    width: 100%;
+    /* min-height: 100%; */
     
 
 }
@@ -38,6 +39,7 @@ header{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
+    @media screen (max-width: 600px;)
 }
 
 .navList{
@@ -80,11 +82,7 @@ header{
     
 }
 
-.contenedor {
-    display: flex;
-    justify-content: left;
-
-}
+/* Index */
 
 .parrafo {
     font-family: 'DM Serif Display', serif;
@@ -106,27 +104,43 @@ p {
     
 }
 
-.fotoindex{
-    width: 200px;
-    height: 200px;
-    border-radius: 10px;
-    margin-right: 10px;
-    justify-content: right;
-    margin: 10px;    
-       
+
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    
+    
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.section img{
+    display: flexbox;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    
+    
+}
+
+.section p{
+    margin-right: 15px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 15px;
+    text-align: justify;
+}
+
+@media only screen and (max-width : 320px) {
     .responsive {
         display: none;
       }
 }
 
-
 /* adopciones */
 
 @media only screen and (max-width : 320px) {
-    .responsiveA {
+    .responsive {
         display: none;
       }
 }
@@ -155,16 +169,19 @@ p {
     padding: 10px;
 }
 
-.fotoindexA{
+.fotoindexA {
+    display: flexbox;
+    justify-content: space-between;
     width: 200px;
     height: 200px;
-    border-radius: 10px;
-    margin-left: 6px;
-    padding-bottom: 6px;
-    justify-content: space-around;
-       
-    
+    margin: 10px;
+    margin-right: -5px;
 }
+
+
+
+
+
 
 /* Donaciones */
 
@@ -379,24 +396,41 @@ p {
     background-color: aqua;
 }
 
+/* footer */
 
-
-
-footer {
+.contenedorPP {
+    width: 100%;
+    height: 43px;
+    position: relative;
+    bottom: 0;
+    left: 0;
     background-image: url(../asset/img/Capturafooter.JPG);
-    margin-top: auto;
+}
+
+.tituloseccion {
+    color: orange;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+
+  
+}
+
+.redessociales{
+    display: flex;
+    justify-content: center; 
     
+
+}
+.imagenes {
+    padding: 2px;
     
+   
 }
 
 
-h3{
-    color: white;
-    font-size: small; 
-    text-align: left;
+.copy {
+    display: flex;
+    justify-content: center;
+    font-size: 7px; 
 }
-.footer img{
-    display:
-    justify-content space-evenly;
-}
-
