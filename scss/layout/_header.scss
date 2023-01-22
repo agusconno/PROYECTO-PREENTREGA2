@@ -1,0 +1,37 @@
+html{
+    font-family: 'Margarine', cursive;
+}
+
+.encabezado img{
+    width: 220px;
+    height: 100px;
+    
+}
+li{
+    font-size: 15px;
+    font-style: normal;
+    list-style-type: none;
+    padding-left: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 200px;
+    background: url(../asset/img/Capturahead.JPG) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    
+}
+
+.navList{
+    display: flex;
+    gap: 30px;
+    padding-top: 20px;
+    padding-right: 15px;
+    justify-content: space-evenly;
+
+}
