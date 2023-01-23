@@ -8,31 +8,22 @@ body{
 
 /* Index */
 .principal h1{
-    font-family: 'Margarine', cursive;
+    font-family: $typo-principal;
     font-size: 30px; 
     display: flex;
     justify-content: center;
     padding-top: 20px;
 }
 .contacto h1{
-    font-family: 'Margarine', cursive;
-    font-size: 30px; 
-    display: flex;
-    justify-content: center;
-    padding-top: 20px; 
+    @extend .principal
 }
 .principal img{
     width: 180px;
     height: 55px;
     margin: auto;
-    display: block;   
+    display: flex;   
 }
-.contacto img{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    display: block;
-}
+
 .parrafo {
     font-family: 'DM Serif Display', serif;
     font-size: 15px;
@@ -55,11 +46,12 @@ p {
     padding: 10px;   
 }
 .section img{
-    display: flexbox;
-    width: 250px;
-    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    height: 17vw;
     border-radius: 20px;
-    padding: 10px; 
+    padding: 5px; 
 }
 .section p{
     margin-right: 15px;
@@ -74,7 +66,7 @@ p {
     text-align: justify;
 }
 .parrafo_adoptar h2 {
-    font-family: 'Margarine', cursive;
+    font-family: $typo-principal;
     font-size: 20px; 
     margin: 10px;
 }
@@ -83,11 +75,10 @@ p {
     font-family: 'DM Serif Display', serif;
     font-size: 15px;
     text-align: justify;
-    padding: 10px;
 }
 
 .titulofotoindexA {
-    font-family: 'Margarine', cursive;
+    font-family: $typo-principal;
     font-size: 15px;
     padding: 10px;
 }
@@ -95,10 +86,11 @@ p {
 .fotoindexA {
     display: flexbox;
     justify-content: space-between;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    margin-right: -5px;
+    width: 30vh;
+    height: 30vh;
+    margin: 3vh;
+    margin-right: 1vh;
+    border-radius: 20px;
 }
 /* Donaciones */
 
