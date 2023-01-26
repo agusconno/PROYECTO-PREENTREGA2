@@ -13,24 +13,28 @@
     <link rel="shortcut icon" href="../asset/img/patita icono.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <div class="responsiveA">
     <body>
-        <header class="responsiveA">
-            <div class="encabezado">
-                <img src="../asset/img/logo3.png" alt="">
-                
-            </div>
-            <nav class="nav">
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i> 
+                </label>
+                <a href="a" class="enlace">
+                    <img src="../asset/img/logo3.png" alt="" class="logo">
+                </a>
                 <ul class="navList">
-                    <li><a href="../index.html">inicio</a></li>
-                    <li><a href="../page/adopciones.html">adopciones</a></li>
-                    <li><a href="../page/donaciones.html">donaciones</a></li>
-                    <li><a href="../page/galeria.html">galeria</a></li>
-                    <li><a href="../page/visitanos.html">visitanos</a></li>
+                    <li><a class="active" href="../index.html">inicio</a></li>
+                    <li><a href="./adopciones.html">adopciones</a></li>
+                    <li><a href="./donaciones.html">donaciones</a></li>
+                    <li><a href="./galeria.html">galeria</a></li>
+                    <li><a href="./visitanos.html">visitanos</a></li>
                 </ul>
             </nav>
         </header>
@@ -51,23 +55,16 @@
             </p>
             <br>
             <h2>Datos importantes para adoptar!</h2>
-            <br>
-            <ul class="listaAdp">
-                <li>-Al solicitar la adopción de un camperito como primer paso enviamos un cuestionario de pre-adopción para ser completado por el interesado.</li>
-                <br>
-                <li>-Luego hacemos una visita al domicilio para conocer a la familia y constatar las condiciones en que vivirá nuestro camperito.</li>
-                <br>
-                <li>-En caso de aprobar la adopción, solicitamos los datos del adoptante (nombre, DNI, domicilio y teléfono),  de su veterinario de confianza (nombre, dirección y tel) y por último, el teléfono (de línea-fijo) y dirección de 4 familiares.</li>
-                <br>
-                <li>-El adoptante deberá encargar la chapita identificatoria para el animal incluyendo nuestro teléfono. Una vez que la chapita está lista coordinamos el traslado del adoptado a su hogar, donde se firma el Contrato de Adopción</li>
-                <br>
-                <li>-Todos nuestros adoptados son llevados a domicilio; sin embargo, se puede venir al refugio a conocerlos previamente.</li>
-                <br>
-                <li>-Nuestros perros son entregados en adopción vacunados, desparasitados y castrados. En caso de ser un cachorrito, se entrega con compromiso de castración cuando tenga la edad suficiente.</li>
-                <br>    
-                <li>-Somos padrinos de nuestros perros de por vida, esto es que podrás contar con nosotros cuando lo necesites, por lo cual tambien los visitamos en su hogar para ver cómo están. Estas visitas de seguimiento son realizadas por personal del refugio</li>
+            <ol>
+                <li class="listaAdp">Al solicitar la adopción de un camperito como primer paso enviamos un cuestionario de pre-adopción para ser completado por el interesado.</li>
+                <li class="listaAdp">Luego hacemos una visita al domicilio para conocer a la familia y constatar las condiciones en que vivirá nuestro camperito.</li>
+                <li class="listaAdp">En caso de aprobar la adopción, solicitamos los datos del adoptante (nombre, DNI, domicilio y teléfono),  de su veterinario de confianza (nombre, dirección y tel) y por último, el teléfono (de línea-fijo) y dirección de 4 familiares.</li>
+                <li class="listaAdp">El adoptante deberá encargar la chapita identificatoria para el animal incluyendo nuestro teléfono. Una vez que la chapita está lista coordinamos el traslado del adoptado a su hogar, donde se firma el Contrato de Adopción</li>
+                <li class="listaAdp">Todos nuestros adoptados son llevados a domicilio; sin embargo, se puede venir al refugio a conocerlos previamente.</li>
+                <li class="listaAdp">Nuestros perros son entregados en adopción vacunados, desparasitados y castrados. En caso de ser un cachorrito, se entrega con compromiso de castración cuando tenga la edad suficiente.</li>
+                <li class="listaAdp">Somos padrinos de nuestros perros de por vida, esto es que podrás contar con nosotros cuando lo necesites, por lo cual tambien los visitamos en su hogar para ver cómo están. Estas visitas de seguimiento son realizadas por personal del refugio</li>
                 
-             </ul>
+            </ol>
             </div>
     </nav>
     <br>

@@ -32,7 +32,8 @@ body{
     text-align: justify;
     margin-right: 70px;
     margin-left: 10px;  
-}
+}   
+
 p {
     font-family: 'DM Serif Display', serif;
     font-size: 15px;
@@ -74,7 +75,10 @@ p {
 .listaAdp {
     font-family: 'DM Serif Display', serif;
     font-size: 15px;
+    margin: 25px;
+    padding: 5px;
     text-align: justify;
+    
 }
 
 .titulofotoindexA {
@@ -85,7 +89,7 @@ p {
 
 .fotoindexA {
     display: flexbox;
-    justify-content: space-between;
+    justify-content: space-evenly;
     width: 30vh;
     height: 30vh;
     margin: 3vh;

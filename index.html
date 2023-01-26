@@ -16,6 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Margarine&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=DM+Serif+Text&family=Margarine&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
 
@@ -23,14 +24,16 @@
 <div class="responsive">
     <body>
         <header>
-            <div class="encabezado">
-                <img src="./asset/img/logo3.png" alt="">
-                <a href="#" class="bt-menu"></a>
-                
-            </div>
-            <nav class="nav">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i> 
+                </label>
+                <a href="a" class="enlace">
+                    <img src="./asset/img/logo3.png" alt="" class="logo">
+                </a>
                 <ul class="navList">
-                    <li><a href="index.html">inicio</a></li>
+                    <li><a class="active" href="index.html">inicio</a></li>
                     <li><a href="./page/adopciones.html">adopciones</a></li>
                     <li><a href="./page/donaciones.html">donaciones</a></li>
                     <li><a href="./page/galeria.html">galeria</a></li>
