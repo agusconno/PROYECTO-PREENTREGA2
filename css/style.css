@@ -76,7 +76,7 @@ li a.active, li a:hover {
     margin: 50px 0;
     line-height: 30px; }
   nav ul li a {
-    font-size: 20px; }
+    font-size: 15px; }
   li a:hover, li a.action {
     background: none;
     color: orange; }
@@ -138,6 +138,10 @@ p {
   font-size: 15px;
   text-align: justify; }
 
+@media (max-width: 858px) {
+  .section img {
+    display: flex; } }
+
 /* adopciones */
 .parrafo_adoptar {
   font-family: 'DM Serif Display', serif;
@@ -171,41 +175,41 @@ p {
   border-radius: 20px; }
 
 /* Donaciones */
-.conteiner {
-  width: 100%;
-  max-width: 1200px;
-  margin: 1.6em;
-  display: grid;
-  gap: 1.8em;
-  grid-template-columns: repeat(5, 1fr); }
+.sectionDonacion {
+  background-color: #F7E2E2;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 97%;
+  margin: 15px auto;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px whitesmoke; }
 
-.content .article {
-  background-color: #e4c5c4;
-  padding: 15px;
-  margin-top: 10px; }
+.sectionDonacion img {
+  width: 45vh;
+  height: 35vh;
+  border-radius: 30px;
+  border: dashed 2px white; }
 
-.content .article h1,
-.content .article p {
-  padding: 10px; }
+.caja1 {
+  background-color: #F7E2E2;
+  width: 35vh;
+  height: 7vh;
+  border: 1px dashed black;
+  float: left; }
 
-.content {
-  grid-column: span 3;
-  justify-content: center;
-  align-items: center;
+.conteinerPost {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  padding: 7px;
+  margin: 10px auto; }
+
+h2 {
   text-align: center;
-  flex-direction: column; }
-
-.aside {
-  grid-column: span 2;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  flex-direction: column;
-  padding: 10px; }
-
-.post-relacionado {
-  border: 1px solid black;
-  padding: 20px; }
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 5px; }
 
 /* Galeria */
 .galeriaFotos {
@@ -222,10 +226,9 @@ p {
   border-radius: 10px; }
 
 .column {
+  padding: 5px;
+  margin-left: 5px;
   flex: 100%; }
-
-.column {
-  padding: 5px; }
 
 .footerGaleria {
   font-family: 'DM Serif Display', serif;

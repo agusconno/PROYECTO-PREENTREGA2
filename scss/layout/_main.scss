@@ -2,14 +2,14 @@ body{
     background-color: #F5EFE6;
     display: flex;
     flex-direction: column;
-    width: 100%;  
+    width: 100%;
 
 }
 
 /* Index */
 .principal h1{
     font-family: $typo-principal;
-    font-size: 30px; 
+    font-size: 30px;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -21,7 +21,7 @@ body{
     width: 180px;
     height: 55px;
     margin: auto;
-    display: flex;   
+    display: flex;
 }
 
 .parrafo {
@@ -31,20 +31,20 @@ body{
     height: 300px;
     text-align: justify;
     margin-right: 70px;
-    margin-left: 10px;  
-}   
+    margin-left: 10px;
+}
 
 p {
     font-family: 'DM Serif Display', serif;
     font-size: 15px;
     margin: 10px;
     text-align: justify;
-    margin-top: 5px;  
+    margin-top: 5px;
 }
 .section {
     display: flex;
     justify-content: space-between;
-    padding: 10px;   
+    padding: 10px;
 }
 .section img{
     display: flex;
@@ -52,13 +52,20 @@ p {
     width: 20vw;
     height: 17vw;
     border-radius: 20px;
-    padding: 5px; 
+    padding: 5px;
 }
 .section p{
     margin-right: 15px;
     font-family: 'DM Serif Display', serif;
     font-size: 15px;
     text-align: justify;
+
+}
+
+@media (max-width: 858px) {
+    .section img{
+        display: flex;
+    }
 }
 /* adopciones */
 .parrafo_adoptar{
@@ -68,7 +75,7 @@ p {
 }
 .parrafo_adoptar h2 {
     font-family: $typo-principal;
-    font-size: 20px; 
+    font-size: 20px;
     margin: 10px;
 }
 
@@ -78,7 +85,7 @@ p {
     margin: 25px;
     padding: 5px;
     text-align: justify;
-    
+
 }
 
 .titulofotoindexA {
@@ -98,41 +105,45 @@ p {
 }
 /* Donaciones */
 
-.conteiner {
-    width: 100%;
-    max-width: 1200px;
-    margin: 1.6em;
-    display: grid;
-    gap: 1.8em;
-    grid-template-columns: repeat(5, 1fr); 
-}
-.content .article {
-    background-color: #e4c5c4;
-    padding: 15px;
-    margin-top: 10px;
-}
-.content .article h1,
-.content .article p {
-    padding: 10px;
-}
-.content {
-    grid-column: span 3;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-}
-.aside {
-    grid-column: span 2;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-direction: column;
-    padding: 10px;          
-}
-.post-relacionado {
-    border: 1px solid black;
+.sectionDonacion {
+    background-color: #F7E2E2;
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
+    width: 97%;
+    margin: 15px auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px whitesmoke;
+}
+.sectionDonacion img{
+    width: 45vh;
+    height: 35vh;
+    border-radius: 30px;
+    border: dashed 2px white;
+}
+
+.caja1 {
+    background-color: #F7E2E2;
+    width: 35vh;
+    height: 7vh;
+    border: 1px dashed black;
+    float: left;
+    }
+
+.conteinerPost{
+    width: 97%;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    margin: 10px auto;
+}
+
+h2{
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    margin-top: 5px;
+
 }
 
 /* Galeria */
@@ -140,25 +151,26 @@ p {
 .galeriaFotos{
     margin: 10px;
     font-family: 'DM Serif Display', serif;
-    font-size: 15px; 
+    font-size: 15px;
     text-align: center;
 }
 .imagen {
-    width: 100%; 
+    width: 100%;
+    
 }
 .row {
     display: flex;
-    border-radius: 10px;    
+    border-radius: 10px;
     }
-    .column {
-        flex: 100%;
-    }
+
 .column {
-    padding: 5px;   
+    padding: 5px;
+    margin-left: 5px;
+    flex: 100%;
 }
 .footerGaleria {
     font-family: 'DM Serif Display', serif;
-    font-size: 15px; 
+    font-size: 15px;
     text-align: center;
     text-transform: capitalize;
 
@@ -168,7 +180,7 @@ p {
 
 .visitanos {
     font-family: 'DM Serif Display', serif;
-    font-size: 15px; 
+    font-size: 15px;
     text-align: justify;
     padding: 10px;
 }
@@ -178,7 +190,7 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 .container {
     position: relative;
