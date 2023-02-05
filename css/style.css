@@ -210,7 +210,8 @@ p {
 h2 {
   text-align: center;
   font-size: 13px;
-  font-style: italic; }
+  font-style: italic;
+  margin-top: 2vh; }
 
 /* Galeria */
 .galeriaFotos {
