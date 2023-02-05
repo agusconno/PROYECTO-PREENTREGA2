@@ -187,9 +187,10 @@ p {
 
 .sectionDonacion img {
   width: 200px;
-  height: 200px;
+  height: 150px;
   border-radius: 30px;
-  border: dashed 2px white; }
+  border: dashed 2px white;
+  margin-top: 7px; }
 
 .caja1 {
   background-color: #F7E2E2;
