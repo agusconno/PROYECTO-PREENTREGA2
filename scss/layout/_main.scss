@@ -3,7 +3,7 @@ body{
     display: flex;
     flex-direction: column;
     width: 100%;
-  
+
 
 }
 
@@ -13,6 +13,7 @@ body{
     font-size: 30px;
     display: flex;
     justify-content: center;
+    text-align: center;
     padding-top: 20px;
 }
 .contacto h1{
@@ -144,8 +145,6 @@ h2{
     text-align: center;
     font-size: 13px;
     font-style: italic;
-    margin-top: 5px;
-
 }
 
 /* Galeria */
@@ -158,7 +157,7 @@ h2{
 }
 .imagen {
     width: 100%;
-    
+
 }
 .row {
     display: flex;
